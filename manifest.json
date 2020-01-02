@@ -1,0 +1,8 @@
+{
+    "name": "Agile Tabafesto",
+    "version": "1.0",
+    "description": "new tabs open with links to agile blogs",
+    "chrome_url_overrides": {  "newtab": "newtab.html"},
+    "permissions": ["activeTab"],
+    "manifest_version": 2
+  }
