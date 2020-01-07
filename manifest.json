@@ -3,6 +3,16 @@
     "version": "1.0",
     "description": "new tabs open with links to agile blogs",
     "chrome_url_overrides": {  "newtab": "newtab.html"},
-    "permissions": ["activeTab"],
-    "manifest_version": 2
+    "permissions": ["activeTab", "https://unpkg.com/react@16/umd/react.production.min.js", "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"],
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://unpkg.com/react@16/umd/react.production.min.js https://unpkg.com/react-dom@16/umd/react-dom.production.min.js; object-src 'self'",
+    "content_scripts": [
+      {
+        "matches": ["https://unpkg.com/react@16/umd/react.production.min.js", "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"],
+        "js": ["test.js"]
+      }
+    ],
+    "background": {
+      "scripts": ["test.js"]
+  }
   }
