@@ -13,16 +13,16 @@
     -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
     border: 1px solid lightslategray;
-    background-color: whitesmoke;
 }
 
 .flex-item-inner {
     width: 100%;
     padding-top: 50%;
+    margin: 10px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .flex-item:nth-child(odd) {
@@ -35,16 +35,17 @@
 
 .ubccb {
     background-color: #f8fff8;
+}
+
+.ubccb-inner {
     background-image: url('./assets/clean_code_72_color.png');
 }
 
-.aob {
-    background-color: #fff;
+.aob-inner {
     background-image: url('./assets/AgileOtter-Logo-Tiny.png');
 }
 
-.sm {
-    background-color: #fff;
+.sm-inner {
     background-image: url('./assets/metz.png');
 }
 
