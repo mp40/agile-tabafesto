@@ -37,6 +37,10 @@
     background-color: #f8fff8;
 }
 
+.rj {
+    background-color: #e7e7e7;
+}
+
 .ubccb-inner {
     background-image: url('./assets/clean_code_72_color.png');
 }
@@ -47,6 +51,10 @@
 
 .sm-inner {
     background-image: url('./assets/metz.png');
+}
+
+.rj-inner {
+    background-image: url('./assets/ronjeffriescrop.svg');
 }
 
 /* Desktop */
