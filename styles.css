@@ -38,6 +38,16 @@
     background-image: url('./assets/clean_code_72_color.png');
 }
 
+.aob {
+    background-color: #fff;
+    background-image: url('./assets/AgileOtter-Logo-Tiny.png');
+}
+
+.sm {
+    background-color: #fff;
+    background-image: url('./assets/metz.png');
+}
+
 /* Desktop */
 @media only screen and (min-width: 768px) {
     .flex-item {
