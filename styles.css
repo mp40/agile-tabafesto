@@ -41,6 +41,10 @@
     background-color: #e7e7e7;
 }
 
+.mf {
+    background-color: #070d4a;
+}
+
 .ubccb-inner {
     background-image: url('./assets/clean_code_72_color.png');
 }
@@ -50,11 +54,31 @@
 }
 
 .sm-inner {
-    background-image: url('./assets/metz.png');
+    background-image: url('./assets/s_metz.png');
 }
 
 .rj-inner {
     background-image: url('./assets/ronjeffriescrop.svg');
+}
+
+.mf-inner {
+    position: relative;
+}
+
+.mf-inner > span {
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%)
+}
+
+.kb-inner {
+    background-image: url('./assets/kb-logo@2x.png');
 }
 
 /* Desktop */
