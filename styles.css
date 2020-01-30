@@ -1,0 +1,107 @@
+/* Mobile First */
+body {
+    background-color: whitesmoke;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.flex-item {
+    width: 45%;
+    margin: 1rem 0;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    border: 1px solid lightslategray;
+    background-color: white;
+}
+
+.flex-item-inner {
+    width: 100%;
+    padding-top: 50%;
+    margin: 10px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.flex-item:nth-child(odd) {
+    margin-right: 1rem;
+}
+
+.flex-item:nth-child(even) {
+    margin-left: 1rem;
+}
+
+.ubccb {
+    background-color: #f8fff8;
+}
+
+.rj {
+    background-color: #e7e7e7;
+}
+
+.mf {
+    background-color: #070d4a;
+}
+
+.ubccb-inner {
+    background-image: url('./assets/clean_code_72_color.png');
+}
+
+.aob-inner {
+    background-image: url('./assets/AgileOtter-Logo-Tiny.png');
+}
+
+.sm-inner {
+    background-image: url('./assets/s_metz.png');
+}
+
+.rj-inner {
+    background-image: url('./assets/ronjeffriescrop.svg');
+}
+
+.mf-inner {
+    position: relative;
+}
+
+.mf-inner > span {
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%)
+}
+
+.kb-inner {
+    background-image: url('./assets/kb-logo@2x.png');
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    .flex-item {
+        width: 25%;
+        margin: 2rem 0;
+    }
+
+    .flex-item:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .flex-item:nth-child(even) {
+        margin-left: 0;
+    }
+
+    .flex-item:nth-child(3n+2) {
+        margin: 2rem 1rem;
+    }
+}
