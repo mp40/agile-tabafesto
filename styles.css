@@ -1,4 +1,8 @@
 /* Mobile First */
+body {
+    background-color: whitesmoke;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
@@ -14,6 +18,7 @@
     -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     border: 1px solid lightslategray;
+    background-color: white;
 }
 
 .flex-item-inner {
